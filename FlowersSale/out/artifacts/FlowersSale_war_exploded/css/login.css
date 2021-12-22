@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background: url(../img/register/background.jpg) no-repeat;
+    background-size: cover;
+    /* 	 background: linear-gradient(90deg, rgba(253, 252, 251, 1) 0%, rgba(226, 209, 195, 1) 100%); */
+}
+#return-login{
+    width: 70px;
+    height: 30px;
+    margin: 5px 0 0 5px;
+    font-weight: 700;
+    color: #bea78b;
+    background: linear-gradient(90deg, #d5eeff 0%, #e8c8c8 100%);
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+}
+#return-login:hover{
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+    width: 71px;
+    height: 31px;
+    box-shadow: 2px 2px #e8c8c8;
+}
+#login{
+    width: 400px;
+    height: 240px;
+    margin: 150px auto;
+    /* border: black 2px solid; */
+}
+form{
+
+    width: 400px;
+    height: 240px;
+    border-radius: 10px;
+    /* border: black 1px solid; */
+    box-shadow: 2px 2px 2px 2px #e8c8c8 ;
+    background: linear-gradient(90deg, #e8c8c8 0%, #edfcfe 100%);
+}
+#input-l{
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(90deg, #e8c8c8 0%, #edfcfe 100%);
+}
+
+span{
+    color: rgba(212, 48, 48, 1);
+    margin-left: 50px;
+    line-height: 30px;
+}
+#input-l input{
+    width: 240px;
+    height: 25px;
+    margin-bottom: 12px;
+    border: #E8C8C8 2px solid;
+    border-radius: 8px;
+}
+#input-l input:focus{
+    outline: none;
+    border-radius: 8px;
+}
+#s1{
+    margin-top: 30px;
+}
+#user{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+#password{
+    margin-top: 10px;
+    margin-left: 41px;
+}
+
+#login-c{
+    margin-top: 9px;
+    height: 100px;
+    border-radius: 0px 0px 10px 10px;
+    /* border: black 1px solid; */
+    /* background: linear-gradient(90deg, #d5eeff 0%, #e8c8c8 100%); */
+}
+#login-1{
+    font-size: 20px;
+    letter-spacing: 9pt;
+    color: #bea78b;
+    font-weight: 700;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background: linear-gradient(90deg, #d5eeff 0%, #e8c8c8 100%);
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+}
+#login-1:hover{
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+    width: 201px;
+    height: 36px;
+    box-shadow: 2px 2px #e8c8c8;
+}
+#to-register{
+    font-size: 20px;
+    letter-spacing: 9pt;
+    color: #bea78b;
+    font-weight: 700;
+    width: 200px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 130px;
+    background: linear-gradient(90deg, #d5eeff 0%, #e8c8c8 100%);
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+}
+#to-register:hover{
+    border: 2px #e8c8c8 solid;
+    border-radius: 10px;
+    width: 201px;
+    height: 36px;
+    box-shadow: 2px 2px #e8c8c8;
+}
