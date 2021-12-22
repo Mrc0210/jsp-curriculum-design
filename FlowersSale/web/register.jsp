@@ -31,26 +31,33 @@
 
     </form>
 </div>
-</div>
     <%
+        /*
+        * 连接数据库
+        * */
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url="jdbc:mysql://127.0.0.1:3306/flowers?useSSL=false&serverTimezone=GMT";
         Connection con=null;
         try {
             con= DriverManager.getConnection(url,"root","root");
+            /*
+            * 对数据库操作
+            * */
+
             Statement st=con.createStatement();
             String user1=request.getParameter("user");
             String password1=request.getParameter("password");
-            Integer phone=Integer.valueOf(request.getParameter("phone"));
+            String phone1=request.getParameter("phone");
+
             ResultSet rs=st.executeQuery("select * from message_login");
-            String sql="insert into message_login(user,password,phone) values('"+user1+"','"+password1+"',"+phone+")";
+            String sql="insert into message_login(user,password,phone) values('"+user1+"','"+password1+"',"+phone1+")";
             int flag=st.executeUpdate(sql);
+            rs.close();
 //        if (con==null)
 //            out.print("0");
 //        else
 //            out.print("1");
-        }catch (Exception e){out.print(e.getMessage());}
+        }catch (Exception e){}
     %>
-</div>
 </body>
 </html>
