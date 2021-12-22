@@ -57,7 +57,7 @@
 //            out.print("0");
 //        else
 //            out.print("1");
-        }catch (Exception e){out.print(e.getMessage());}
+        }catch (Exception e){}
     %>
 </body>
 </html>
